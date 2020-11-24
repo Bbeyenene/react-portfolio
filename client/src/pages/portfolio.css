@@ -1,0 +1,122 @@
+
+/* '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''' */
+.projects{
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    text-align:center;
+    margin:0 auto;
+    width:100%;
+}
+
+.project-flex{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:column;
+    justify-content:center;
+    margin: 10 auto;
+    max-width: 100%;
+}
+
+.project-flex div{
+    display:flex;
+    flex-wrap:nowrap;
+    flex-direction:column;
+    padding:6px;
+    width:100%;
+    height:auto;
+    border-radius:5px;
+    margin: 0 auto
+}
+
+.project-flex div img{
+    display:flex;
+    max-width:300px;
+    max-height:auto;
+    margin:0 auto;
+    /* border: solid red 3px; */
+}
+.myLink:hover{
+    margin:5px;
+    cursor:pointer;
+    box-shadow:8px 8px 8px 8px #87cefa
+}
+
+.linkSvg{
+    width:25px;
+    height:25px;
+    margin-right:10px;
+    background-color:#deb887;
+    border-radius:30px
+}
+
+.linkSvg:hover{
+    width:25px;
+    height:25px
+}
+
+/* ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''' */
+/* 
+@media screen and (min-width:320px){
+    .projects{
+        width:100%
+    }
+    .project-flex div{
+        flex-direction:column;
+        max-width:100%;
+        justify-content:space-around;
+        border: 2px solid red;
+    }
+    .project-flex div img{
+        min-width:100%;
+        height:auto;
+        margin:10 auto
+    }
+}
+@media screen and (min-width:675px){
+    img{
+        margin-top:30px;
+        min-width:230px;
+        height:auto;
+    }
+    .projects{
+        display:flex;
+        flex-wrap:wrap;
+        flex-direction:column;
+    }
+    .project-flex{
+        display:flex;
+        flex-wrap:wrap;
+        flex-direction:row
+    }
+    .project-flex{
+        width:90%;
+        margin: 0 auto;
+        display:flex;
+        flex-wrap:nowrap;
+        flex-direction:row
+    }
+    .project-flex div{
+        display:flex;
+        flex-wrap:nowrap;
+        flex-direction:column;
+        padding:6px;
+        width:100%;
+        height:auto;
+        border-radius:5px;
+        margin:1%
+    }
+    .project-flex div img{
+        max-width:100px;
+        height:auto;
+        margin:10 auto
+    }
+}
+@media screen and (min-width:1024px){
+    img{min-width:270px;height:auto}
+    .project-flex div img{
+        max-width:180px;
+        height:auto;
+        margin:10 auto
+    }
+} */

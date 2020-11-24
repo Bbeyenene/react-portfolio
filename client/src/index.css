@@ -5,6 +5,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family:Lora,serif;position:relative;
+  padding-top:0
+  ;padding-bottom:50px;
+  min-height:100vh;
+  background:url(./assets/Images/chicago.png) no-repeat center center fixed;
+  background-size:cover
 }
 
 code {

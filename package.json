@@ -28,7 +28,14 @@
   },
   "homepage": "https://github.com/Bbeyenene/react-portfolio#readme",
   "dependencies": {
+    "bootstrap": "^4.5.3",
     "express": "^4.17.1",
-    "mongoose": "^5.10.15"
+    "moment": "^2.29.1",
+    "momentjs": "^2.0.0",
+    "mongoose": "^5.10.15",
+    "react-bootstrap": "^1.4.0",
+    "react-media": "^1.10.0",
+    "react-moment": "^1.0.0",
+    "react-router-dom": "^5.2.0"
   }
 }
