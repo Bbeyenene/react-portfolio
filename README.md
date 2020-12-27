@@ -44,7 +44,7 @@
    
    ## Developers Contact Information
    * LinkdIn Profile: [Berhane](https://www.linkedin.com/in/berhane-beyene/)
-   * Deployed URL : [react-portfolio](https://bbportfolio.herokuapp.com/) 
+   * Deployed URL : [react-portfolio](https://https://bm1portfolio.herokuapp.com/) 
    * Email: monoxica2004@yahoo.com
    ## License
    This application is licensed under [![License:MIT](https://img.shields.io/badge/License-ISC-yellow.svg)](https://opensource.org/licenses/ISC).
