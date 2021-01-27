@@ -14,7 +14,7 @@ function contact() {
                 <p>Phone: <span>(708) 427-2105</span></p>
                 <p> Email: <a href="mailto:monoxica2004@yahoo.com">monoxica2004@yahoo.com</a></p>
             </div>
-            <form>
+            <form id="my-form-id" method="post" action="https://api.formcake.com/api/form/33a2c74d-f5f2-4615-928b-4de2ed9bf362/submission">
                 <div className="form-group">
                     <label for="nameInput">Name</label>
                     <input type="name" class="form-control" id="nameInput" aria-describedby="name" placeholder="Enter name" />
