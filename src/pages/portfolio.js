@@ -82,7 +82,7 @@ function portfolio() {
         <div className="P-link">
           <img id="burger" className="myLink" src={ET} alt="Employee-Tracker" />
           <a
-            class="btn btn-warning btn-lg"
+            className="btn btn-warning btn-lg"
             href="https://github.com/Bbeyenene/Employee-Tracker"
           >
             Github{" "}
@@ -129,7 +129,7 @@ function portfolio() {
         <div className="P-link">
           <img id="quiz" className="myLink" src={quiz} alt="Code-Quize" />
           <a
-            class="btn btn-warning btn-lg"
+            className="btn btn-warning btn-lg"
             href="https://github.com/Bbeyenene/Code-Quize"
           >
             Github

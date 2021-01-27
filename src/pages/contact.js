@@ -34,33 +34,37 @@ function contact() {
         action="https://api.formcake.com/api/form/e2ccce6c-6bcd-481b-b043-7db7b60f5d2f/submission"
       >
         <div className="form-group">
-          <label for="nameInput">Name</label>
+          <label htmlFor="nameInput">Name</label>
           <input
             type="name"
-            class="form-control"
+            className="form-control"
             id="nameInput"
             aria-describedby="name"
             placeholder="Enter name"
           />
         </div>
         <div className="form-group">
-          <label for="emailInput">Email</label>
+          <label htmlFor="emailInput">Email</label>
           <input
             type="email"
-            class="form-control"
+            className="form-control"
             id="emailInput"
             placeholder="Enter Email"
           />
         </div>
         <div className="form-group">
-          <label for="messageInput">Message</label>
+          <label htmlFor="messageInput">Message</label>
           <textarea
             className="form-control"
             id="messageInput"
             rows="3"
           ></textarea>
         </div>
-        <button onsubmit={handleFormSubmit} type="submit" class="btn btn-dark">
+        <button
+          onSubmit={handleFormSubmit}
+          type="submit"
+          className="btn btn-dark"
+        >
           Submit
         </button>
       </form>
